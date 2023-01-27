@@ -15,7 +15,7 @@ aws eks --region <aws-region>  update-kubeconfig --name <cluster-name>
 kubectl get nodes
 
 
-/How to add gitlab token 
+* How to add gitlab token *
 
 add service account in eks cluster,  
 
