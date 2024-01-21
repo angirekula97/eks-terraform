@@ -11,13 +11,13 @@ variable "aws-region" {
 }
 
 variable "k8s-version" {
-  default = "1.21"
+  default = "1.22"
   type = string
   description = "K8S version"
 }
 
 variable "node-instance-type" {
-  default     = "t3.medium"
+  default     = "t2.micro"
   type        = string
   description = "Worker Node EC2 instance type"
 }
