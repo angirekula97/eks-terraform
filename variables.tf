@@ -23,14 +23,14 @@ variable "node-instance-type" {
 }
 
 variable "root-block-size" {
-  default     = "20"
+  default     = "30"
   type        = string
   description = "Size of the root EBS block device"
 
 }
 
 variable "desired-capacity" {
-  default     = 2
+  default     = 4
   type        = string
   description = "Autoscaling Desired node capacity"
 }
@@ -42,7 +42,7 @@ variable "max-size" {
 }
 
 variable "min-size" {
-  default     = 2
+  default     = 4
   type        = string
   description = "Autoscaling Minimum node capacity"
 }
